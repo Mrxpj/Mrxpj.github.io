@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+
+    
+    
+    
+  <url>
+    <loc>http://www.shisanban.com/2018/02/13/test-my-site/</loc>
+    <lastmod>2018-02-13T10:16:22.841Z</lastmod>
+    <data>
+        <display>
+        <title>test_my_site</title>
+        <pubTime>2018-02-13T10:16:22.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.shisanban.com/2018/02/13/hello-world/</loc>
+    <lastmod>2018-02-13T10:01:58.248Z</lastmod>
+    <data>
+        <display>
+        <title>Hello World</title>
+        <pubTime>2018-02-13T10:01:58.248Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+</urlset>
