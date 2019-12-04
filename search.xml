@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[css垂直居中浮动元素]]></title>
+    <url>%2F2019%2F12%2F04%2Fcss%E5%9E%82%E7%9B%B4%E5%B1%85%E4%B8%AD%E6%B5%AE%E5%8A%A8%E5%85%83%E7%B4%A0%2F</url>
+    <content type="text"><![CDATA[1、flex布局垂直居中1234567.div &#123; display: flex; justify-content: center; /* 水平居中 */ align-items: center; /* 垂直居中 */ width: 1000px; height: 600px; &#125; 2、绝对定位垂直居中已知子元素宽高123456789.div1&#123; width:200px; height:200px; position:absolute;//父元素要相对定位 left:50%; top:50%; margin-left:-100px;//自身宽高一半的复负值 margin-top:-100px;&#125; 未知元素的宽高12345678910.div2&#123; width:200px; height:200px; position:absolute;//父元素要相对定位 margin:auto; left:0; right:0; top:0; bottom:0;&#125; 123456789.div3&#123;position: absolute;left: 50%;transform: translateX(-50%); /* 移动元素本身50% */&#125; 12345.div4&#123; display:table-cell; vertical-align: middle; text-align: center;&#125;]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[Hello World]]></title>
-    <url>%2F2018%2F02%2F13%2Fhello-world%2F</url>
+    <url>%2F2018%2F02%2F21%2Fhello-world%2F</url>
     <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
   </entry>
 </search>

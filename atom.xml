@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://github.com/Mrxpj/Mrxpj.github.io/"/>
-  <updated>2018-02-13T10:01:58.248Z</updated>
+  <updated>2019-12-04T03:48:34.555Z</updated>
   <id>https://github.com/Mrxpj/Mrxpj.github.io/</id>
   
   <author>
@@ -17,10 +17,31 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>css垂直居中浮动元素</title>
+    <link href="https://github.com/Mrxpj/Mrxpj.github.io/2019/12/04/css%E5%9E%82%E7%9B%B4%E5%B1%85%E4%B8%AD%E6%B5%AE%E5%8A%A8%E5%85%83%E7%B4%A0/"/>
+    <id>https://github.com/Mrxpj/Mrxpj.github.io/2019/12/04/css垂直居中浮动元素/</id>
+    <published>2019-12-04T03:42:40.000Z</published>
+    <updated>2019-12-04T03:48:34.555Z</updated>
+    
+    <content type="html"><![CDATA[<p>1、flex布局垂直居中<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">.div &#123;</span><br><span class="line">    display: flex;</span><br><span class="line">    justify-content: center; <span class="comment">/* 水平居中 */</span></span><br><span class="line">    align-items: center;     <span class="comment">/* 垂直居中 */</span></span><br><span class="line">    width: <span class="number">1000</span>px;</span><br><span class="line">    height: <span class="number">600</span>px;</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure></p><p>2、绝对定位垂直居中<br>已知子元素宽高<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">.div1&#123;  </span><br><span class="line">    width:<span class="number">200</span>px;  </span><br><span class="line">    height:<span class="number">200</span>px;  </span><br><span class="line">    position:absolute;<span class="comment">//父元素要相对定位  </span></span><br><span class="line">    left:<span class="number">50</span>%;</span><br><span class="line">    top:<span class="number">50</span>%;</span><br><span class="line">    margin-left:<span class="number">-100</span>px;<span class="comment">//自身宽高一半的复负值</span></span><br><span class="line">    margin-top:<span class="number">-100</span>px;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p><p>未知元素的宽高<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">.div2&#123;  </span><br><span class="line">    width:<span class="number">200</span>px;  </span><br><span class="line">    height:<span class="number">200</span>px;  </span><br><span class="line">    position:absolute;<span class="comment">//父元素要相对定位  </span></span><br><span class="line">    margin:auto;</span><br><span class="line">    left:<span class="number">0</span>;</span><br><span class="line">    right:<span class="number">0</span>;</span><br><span class="line">    top:<span class="number">0</span>;</span><br><span class="line">    bottom:<span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">.div3&#123;</span><br><span class="line"></span><br><span class="line">position: absolute;</span><br><span class="line"></span><br><span class="line">left: <span class="number">50</span>%;</span><br><span class="line"></span><br><span class="line">transform: translateX(<span class="number">-50</span>%); <span class="comment">/* 移动元素本身50% */</span></span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">.div4&#123;</span><br><span class="line">display:table-cell;</span><br><span class="line">    vertical-align: middle;</span><br><span class="line">    text-align: center;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;1、flex布局垂直居中&lt;br&gt;&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>Hello World</title>
-    <link href="https://github.com/Mrxpj/Mrxpj.github.io/2018/02/13/hello-world/"/>
-    <id>https://github.com/Mrxpj/Mrxpj.github.io/2018/02/13/hello-world/</id>
-    <published>2018-02-13T10:01:58.248Z</published>
+    <link href="https://github.com/Mrxpj/Mrxpj.github.io/2018/02/21/hello-world/"/>
+    <id>https://github.com/Mrxpj/Mrxpj.github.io/2018/02/21/hello-world/</id>
+    <published>2018-02-21T08:32:01.480Z</published>
     <updated>2018-02-13T10:01:58.248Z</updated>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
