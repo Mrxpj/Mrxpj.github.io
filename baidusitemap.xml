@@ -1,42 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-
-    
-    
   <url>
     <loc>https://Mrxpj.github.io/2019/12/04/css%E5%9E%82%E7%9B%B4%E5%B1%85%E4%B8%AD%E6%B5%AE%E5%8A%A8%E5%85%83%E7%B4%A0/</loc>
-    <lastmod>2019-12-04T08:09:38.261Z</lastmod>
-    <data>
-        <display>
-        <title>css垂直居中浮动元素</title>
-        <pubTime>2019-12-04T03:42:40.000Z</pubTime>
-        
-        <tag>css</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
+    <lastmod>2019-12-04</lastmod>
+  </url>  <url>
     <loc>https://Mrxpj.github.io/2019/12/04/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95%E9%A2%98%E7%9B%AE%E4%BB%A5%E5%8F%8A%E7%AD%94%E6%A1%88/</loc>
-    <lastmod>2019-12-04T08:09:26.107Z</lastmod>
-    <data>
-        <display>
-        <title>前端面试题目以及答案</title>
-        <pubTime>2019-12-04T04:01:22.000Z</pubTime>
-        
-        <tag>前端面试题</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-    
+    <lastmod>2019-12-04</lastmod>
+  </url>
 </urlset>
