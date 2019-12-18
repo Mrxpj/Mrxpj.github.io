@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://mrxpj.coding.me/tags/index.html</loc>
+    
+    <lastmod>2019-12-18T09:44:31.066Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://mrxpj.coding.me/2019/12/04/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95%E9%A2%98%E7%9B%AE%E4%BB%A5%E5%8F%8A%E7%AD%94%E6%A1%88/</loc>
     
     <lastmod>2019-12-18T09:03:35.544Z</lastmod>
@@ -33,13 +40,6 @@
     <loc>https://mrxpj.coding.me/categories/index.html</loc>
     
     <lastmod>2018-02-15T12:40:39.413Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://mrxpj.coding.me/tags/index.html</loc>
-    
-    <lastmod>2018-02-15T12:34:51.892Z</lastmod>
     
   </url>
   
