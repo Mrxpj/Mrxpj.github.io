@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://mrxpj.coding.me/"/>
-  <updated>2019-12-18T08:15:29.085Z</updated>
+  <updated>2019-12-18T08:19:19.854Z</updated>
   <id>https://mrxpj.coding.me/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://mrxpj.coding.me/2019/12/18/%E5%9B%BE%E7%89%87img%E6%A0%87%E7%AD%BEsrc-object-Module/"/>
     <id>https://mrxpj.coding.me/2019/12/18/图片img标签src-object-Module/</id>
     <published>2019-12-18T08:00:05.000Z</published>
-    <updated>2019-12-18T08:15:29.085Z</updated>
+    <updated>2019-12-18T08:19:19.854Z</updated>
     
     <content type="html"><![CDATA[<p>在使用webpack4初始化项目，基础配置完之后出现的一个问题。如下图<br><img src="https://img-blog.csdnimg.cn/20191209114437303.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3NpbXBlcl9ib3k=,size_16,color_FFFFFF,t_70" alt="alert"><br>img属性src=”[object Module]”，引入图片的方式为<br><img src="https://img-blog.csdnimg.cn/20191209114633221.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3NpbXBlcl9ib3k=,size_16,color_FFFFFF,t_70" alt="alert"><br>配置的图片loader试了两种都不行：file-loader、url-loader<br>配置如下<br><img src="https://img-blog.csdnimg.cn/20191209114850364.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3NpbXBlcl9ib3k=,size_16,color_FFFFFF,t_70" alt="alert"><br>解决办法</p><h3>在options里面加入</h3><br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">esModule: <span class="literal">false</span></span><br></pre></td></tr></table></figure><br><br><h3>如果你是用的url-loader那就在url-loader里面的options配置</h3><p><img src="https://img-blog.csdnimg.cn/20191209114959879.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3NpbXBlcl9ib3k=,size_16,color_FFFFFF,t_70" alt="alert"></p><p></p><h3>作用是启用CommonJS模块语法</h3><br>具体的原理不是很懂，如果读者明白望告知。<p></p>]]></content>
     
