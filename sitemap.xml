@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://mrxpj.coding.me/categories/index.html</loc>
+    
+    <lastmod>2019-12-18T10:06:59.525Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://mrxpj.coding.me/tags/index.html</loc>
     
     <lastmod>2019-12-18T09:44:31.066Z</lastmod>
@@ -33,13 +40,6 @@
     <loc>https://mrxpj.coding.me/about/index.html</loc>
     
     <lastmod>2019-12-04T10:47:05.853Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://mrxpj.coding.me/categories/index.html</loc>
-    
-    <lastmod>2018-02-15T12:40:39.413Z</lastmod>
     
   </url>
   
